@@ -97,3 +97,28 @@ header nav li{
     border-radius: 24px 0 0 0;
     object-fit: cover;
 }
+/*  */
+.pacotes .card-content{
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.pacotes .card-content ul li{
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    color:  grey;
+    font-weight: bold;
+}
+.pacotes .card-contentli svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
