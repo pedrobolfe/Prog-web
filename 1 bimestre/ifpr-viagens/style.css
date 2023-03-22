@@ -202,3 +202,37 @@ header nav li{
     height: 180px;
     text-align: center;
 }
+
+.contato{
+    padding: 60px;
+    background: #e1e8f7;
+    position: relative;
+    text-align: right;
+}
+.contato .contato-card{
+    width: 350px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    z-index: 99;
+    border-radius: 8px;
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato .contato-card h1{
+    padding: 50px ;
+    text-align: left;   
+}
+
+.contato .contato-card li{
+    font-size: 1rem;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
