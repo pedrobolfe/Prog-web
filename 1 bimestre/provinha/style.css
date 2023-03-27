@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: bold;
+    color: white;
+    background: #1d61dd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background:no-repeat center/cover url("assets/a98182661494dcc514fd47162a21ce1601a23295.jpg");
+    height: calc(100vh - 100px);
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+header nav p{
+    font-weight: bold;
+    color: azure;
+
+}
+header nav ul{
+    display: flex;
+}
+
+header nav li{
+    margin: 0 15px;
+    color: azure;
+}
+header div h1{
+    color: white;
+}
+.header-content{
+    margin: 150PX auto;
+    text-align: center;
+    max-width: 400px;
+    color: rgb(226, 233, 233);
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+    font-size: 4rem;
+}
+.header  .card-content{
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+}
+
+.header .cheader-text-content p{
+    color: white;
+    font-size: 0.9rem;
+    justify-content: left;
+}
+
+.jogadores{
+    background: #3f16d4;
+    padding: 15px;
+}
+
+.jogadores .jogadores-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jogadores .card{
+    width: 250px;
+    height: 400px;
+    background: white;
+    margin: 25px;
+    position: relative;
+    border-radius: 24px 0;
+}
+
+.jogadores .jogadores-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+.jogadores .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.jogadores .card-content{
+    padding: 0 14px;
+}
+
+.jogadores .card-content ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.jogadores .card-content ul li{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    color:  rgb(0, 0, 0);
+    font-weight: bold;
+}
+.jogadores .card-contentli svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.jogadores .card-content ul li h1{
+    font-size: 1rem;
+}
+
+.jogadores .card .card-tag-top{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.jogadores .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d61dd;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.jogadores .card .card-tag p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.contato{
+    padding: 60px;
+    background: #05080e;
+    position: relative;
+    text-align: right;
+}
+.contato .contato-card{
+    width: 350px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    z-index: 99;
+    border-radius: 8px;
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato .contato-card h1{
+    padding: 50px ;
+    text-align: left;   
+}
+
+.contato .contato-card li{
+    font-size: 1rem;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
