@@ -26,6 +26,7 @@ button{
     font-weight: bold;
     color: white;
     background: #1d61dd;
+    position: center;    
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,17 +56,20 @@ header nav li{
 header div h1{
     color: white;
 }
-.header-content{
+.header-content h1{
     margin: 150PX auto;
     text-align: center;
-    max-width: 400px;
-    color: rgb(226, 233, 233);
+    max-width: 500px;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
 }
 
-.header-content h1{
-    margin-bottom: 10px;
-    font-size: 4rem;
+.header-content p{
+    text-align: center;
+    background: white;
+    color: #05080e;
 }
+
 .header  .card-content{
     display: flex;
     margin: auto;
@@ -73,15 +77,10 @@ header div h1{
     flex-wrap: wrap;
 }
 
-.header .cheader-text-content p{
-    color: white;
-    font-size: 0.9rem;
-    justify-content: left;
-}
-
 .jogadores{
-    background: #3f16d4;
-    padding: 15px;
+    background: #21087e;
+    padding: 20px;
+    
 }
 
 .jogadores .jogadores-cards {
@@ -166,9 +165,52 @@ header div h1{
     font-weight: bold;
 }
 
+.titulos{
+    padding: 200px;
+}
+
+.titulos .titulos-tittle{
+    text-align: center;
+    margin: 35px 0;
+    color: black;
+}
+
+.titulos .titulos-cards{
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.titulos .card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;   
+}
+
+
+.titulos .card h3{
+    font-weight: bold;
+}
+
+.titulos .card p{
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    text-align: center;
+}
+.titulos .card .card-content{
+    height: 180px;
+    text-align: center;
+}
+
 .contato{
     padding: 60px;
-    background: #05080e;
+    background: gray;
     position: relative;
     text-align: right;
 }
@@ -195,7 +237,7 @@ header div h1{
 .contato .contato-card li{
     font-size: 1rem;
     font-weight: bold;
-    color: gray;
+    color: rgb(7, 7, 7);
     display: flex;
     align-items: center;
 }
