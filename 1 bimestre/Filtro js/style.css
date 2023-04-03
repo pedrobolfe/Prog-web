@@ -1,0 +1,33 @@
+body {
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px 10px;
+    border: 1px solid #eee;
+    height: 45px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    background: #fff;
+    border-radius: 8px;
+    width: 100%;
+    padding: 8px 15px;
+    margin: 5px 0;
+}

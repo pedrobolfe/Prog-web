@@ -25,7 +25,7 @@ button{
     border: 0;
     font-weight: bold;
     color: white;
-    background: #1d61dd;
+    background: no-repeat center/cover url("https://i.gifer.com/2S4q.gif");
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -64,7 +64,7 @@ header nav li{
 }
 
 .pacotes{
-    background: #70ef96;
+    background: #bfbdcf;
     padding: 15px;
 }
 
@@ -203,6 +203,11 @@ header nav li{
     text-align: center;
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+}
+
 .contato{
     padding: 60px;
     background: #e1e8f7;
@@ -235,4 +240,9 @@ header nav li{
     color: gray;
     display: flex;
     align-items: center;
+}
+
+.contato .contato-card li svg{
+    width: 16px;
+    margin: 10px;
 }
