@@ -1,6 +1,17 @@
 const nameList = ["Felisberto", "Fernandão", "Nareba", "Yaguinho", "BaraBaraBara", "TI"]
 
 const listE1 = document.getElementById("list");
+
+
+const btRemover = document.getElementById("btRemover");
+btRemover.addEventListener(remover_item);
+
+//const btAdicionar = document.getElementById("btAdicionar");
+//btAdicionar.addEventListener(adicionar_item);
+
+const btSelecionar = document.getElementById("btSelecionar");
+btRemover.addEventListener(remover_item);
+
 const searchField = document.getElementById("searchField");
 searchField.addEventListener("input", inputHandler);
 
@@ -22,4 +33,12 @@ function inputHandler(){
         return listItems.includes(searchWord)
     });
     fillList(filteredList);
+}
+
+function remover_item(){
+    nameList.pop(searchField);
+}
+
+function adicionar_item(){
+    nameList.push(searchField);
 }
