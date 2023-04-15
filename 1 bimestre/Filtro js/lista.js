@@ -49,6 +49,7 @@ function adicionar_item(){
 }
 
 function remover_item(){
+<<<<<<< HEAD
     if(aux > (nameList.length - 2)){
         nameList.splice(aux, 1);
         aux -= 1;
@@ -56,6 +57,14 @@ function remover_item(){
     }else{
         nameList.splice(aux, 1);
         fillList();
+=======
+    aux = 0;
+    item = searchField.value.toLowerCase();     //  'nome' recebe o valor da barra de pesquisa e transforma em minusculo
+    var verifica = nameList.indexOf(item);     // indexOf verifica se tem um item em uma lista, se for -1 e pq n esta na lista, se estiver ele retorna a posicao do item
+    if (verifica != -1) {   // se for diferente de -1 e pq o item esta na lista
+        nameList.splice(verifica, 1);   // splice remove o elemento na posicao retornada pelo indexOf
+        saida.innerHTML = "Nome Removido";
+>>>>>>> 37f64a73769a9d479170a68d828c322e84e61d2a
     }
     
 }
