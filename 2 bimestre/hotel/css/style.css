@@ -34,3 +34,76 @@
     visibility: visible;
     opacity: 1;
 }
+
+/** Button **/
+.btn{
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn.btn-primary, 
+.btn.btn-secundary{
+    color: #ffff;
+}
+
+.btn-square{
+    width: 38px;
+    height: 38px;
+} 
+
+.btn-sm-square{
+    width: 32px;
+    height: 32px;
+}
+
+.btn-1g-square{
+    width: 48px;
+    height: 48px;
+}
+
+.btn-1g-square,
+.btn-sm-square,
+.btn-square{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 2px;
+}
+
+/** nav bar**/
+.navbar-dark .navbar-nav .nav-link{
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active{
+    color: var(--primary);
+}
+
+/** Header **/
+.carousel-caption{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 43, .7);
+    z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 3rem;
+    height: 3rem;
+}
