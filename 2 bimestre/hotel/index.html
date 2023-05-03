@@ -140,6 +140,43 @@
         </div>
         <!-- Carousel End -->
         <!-- Bookin Start-->
+        <div class="container-fluid booking pb-0 wow fadIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="bg-white shadow" style="padding: 35px;">
+                    <div class="row g-2">
+                        <div class="col-md-3">
+                            <div class="date" id="date1" data-target-input="neorest">
+                                <input type="text" class="form-control datetimepicker-input" placeholder="Check in" data-target="#date1" data-togler="datetimepicker"/>                                            
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="date" id="date2" data-target-input="neorest">
+                                <input type="text" class="form-control datetimepicker-input" placeholder="Check Out" data-target="#date2" data-togler="datetimepicker"/>                         
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select">
+                                <option selected">Adulto</option>
+                                <option value="1"">Adulto 1</option>
+                                <option value="2"">Adulto 2</option>
+                                <option value="3">Adulto 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <select class="form-select">
+                                <option selected">Criança</option>
+                                <option value="1"">Criança 1</option>
+                                <option value="2"">Criança 2</option>
+                                <option value="3">Criança 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary w-100">Enviar</button>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
